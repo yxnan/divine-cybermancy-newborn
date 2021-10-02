@@ -1,0 +1,54 @@
+diff --git a/mapsrc/dworld01_point.vmf b/mapsrc/dworld01_point.vmf
+index 5777106..a682ac1 100644
+--- a/mapsrc/dworld01_point.vmf
++++ b/mapsrc/dworld01_point.vmf
+@@ -430870,9 +430870,7 @@ entity
+ 	{
+ 		"OnPressed" "d1Kill0.5-1"
+ 		"OnPressed" "math_datingAdd101"
+-		"OnPressed" "point_servercommandCommandsay_team "Get a brain"0-1"
+ 		"OnPressed" "getPlaySound0-1"
+-		"OnPressed" "point_servercommandCommandsay_team "Find five debris"5-1"
+ 		"OnPressed" "tipview1Enable2-1"
+ 		"OnPressed" "tipview2Enable4-1"
+ 		"OnPressed" "tipview3Enable6-1"
+@@ -431166,7 +431164,6 @@ entity
+ 		"OnTimeUp" "math_datingAdd101"
+ 		"OnTimeUp" "true_button_music01PlaySound0-1"
+ 		"OnTimeUp" "math_counter_bookstore_tipAdd10-1"
+-		"OnTimeUp" "point_servercommandCommandsay_team "Get a inscriptions debris"01"
+ 	}
+ 	solid
+ 	{
+@@ -431618,7 +431615,6 @@ entity
+ 		"OnTimeUp" "taizibuttonUnlock01"
+ 		"OnTimeUp" "true_button_music04PlaySound0-1"
+ 		"OnTimeUp" "math_counter_bookstore_tipAdd10-1"
+-		"OnTimeUp" "point_servercommandCommandsay_team "Get a inscriptions debris"0-1"
+ 	}
+ 	solid
+ 	{
+@@ -431734,7 +431730,6 @@ entity
+ 		"OnTimeUp" "true_button_music03PlaySound0-1"
+ 		"OnTimeUp" "qnCVolume00-1"
+ 		"OnTimeUp" "taiziStopGlowing0-1"
+-		"OnTimeUp" "point_servercommandCommandsay_team "Get a inscriptions debris"0-1"
+ 	}
+ 	solid
+ 	{
+@@ -431850,7 +431845,6 @@ entity
+ 		"OnTimeUp" "true_button_musicPlaySound0-1"
+ 		"OnTimeUp" "tip2ShowHint0-1"
+ 		"OnTimeUp" "button03StopGlowing0-1"
+-		"OnTimeUp" "point_servercommandCommandsay_team "Get a inscriptions debris"0-1"
+ 	}
+ 	solid
+ 	{
+@@ -432009,7 +432003,6 @@ entity
+ 	{
+ 		"OnTimeUp" "math_datingAdd101"
+ 		"OnTimeUp" "true_button_music02PlaySound0-1"
+-		"OnTimeUp" "point_servercommandCommandsay_team "Get a inscriptions debris"01"
+ 	}
+ 	solid
+ 	{

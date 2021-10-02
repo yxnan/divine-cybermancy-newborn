@@ -1,0 +1,8 @@
+config/
+materials/
+sound/
+models/
+*.vmx
+*.prt
+*.log
+*.bsp
