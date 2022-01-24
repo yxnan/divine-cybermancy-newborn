@@ -1,7 +1,7 @@
 config/
-materials/
-sound/
-models/
+materials
+sound
+models
 *.vmx
 *.prt
 *.log
